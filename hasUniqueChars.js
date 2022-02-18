@@ -22,3 +22,4 @@ function hasUniqueChars(str) {
 console.log(hasUniqueChars("Moonday"))
 
 // RUNTIME O(n^2)
+// SPACE COMPLEXITY O(n)

@@ -33,4 +33,4 @@ function addToZero(arr) {
 console.log(addToZero([1]))
 
 //RUNTIME O(n^2)
-
+// SPACE COMPLEXITY O(n^2)

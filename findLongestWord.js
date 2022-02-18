@@ -18,3 +18,5 @@ function findLongestWord(arr) {
 console.log(findLongestWord(["hi", "hello", 'skahfd', 'joijweoifoidnfwonwd']));
 
 // RUNTIME O(n)
+// SPACE COMPLEXITY O(n)
+

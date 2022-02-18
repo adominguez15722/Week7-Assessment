@@ -25,5 +25,6 @@ function isPangram(str) {
 console.log(isPangram("The quick brown fox jumps over the lazy dog!"))
 console.log(isPangram("Anthony516];];/'/]"))
 
-// RUNTIME O(N)
+// RUNTIME O(n)
+// SPACE COMPLEXITY O(n)
 
