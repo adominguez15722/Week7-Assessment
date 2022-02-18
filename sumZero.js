@@ -16,30 +16,21 @@
 
 function addToZero(arr) {
     let sum = 0
+    let results = []
+
+    for (let i = 0; i < arr.length - 1; i++) {
+        for (let j = i + 1; j < arr.length; j++) {
+            results.push((arr[i] + arr[j]))
+            }
+        }
+        if(results.includes(sum)){
+            return true
+        }   else{
+            return false
+        }
+    }
     
-    for(let i = 0; i < arr.length; i++) {
-        for(let j = 0 ; j < arr.length; j++){
-            let twoInd = arr[i] + arr[j + 1]
-            console.log(twoInd)
-            if(arr.length <= 1 || twoInd != sum ){
-                console.log('false')
-            }   else if(twoInd === sum){
-                console.log('true')
-            }   
-            
+console.log(addToZero([1]))
 
-        }
-    }
-}
+//RUNTIME O(n^2)
 
-addToZero([1, 2, 3, -2])
-
-for (let i = 0; i < str.length - 1; i++) {
-    for (let j = i + 1; j < str.length; j++) {
-        if (str[i] === str[j]) {
-            return false;
-        }
-    }
-}
-return true;
-}
